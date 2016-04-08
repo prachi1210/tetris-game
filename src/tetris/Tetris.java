@@ -31,10 +31,12 @@ public class Tetris extends JFrame {
         		+ "Instructions for the game\n"
         		+ " You have to eliminate rows of blocks by fitting them in the empty spaces\n"
         		+ " Keys : \n"
-        		+ " Navigate left  :\t LEFT\n"
-        		+ " Navigate right :\t RIGHT\n"
-        		+ " Rotate   left  :\t UP\n"
-        		+ " Rotate   right :\t DOWN\n");
+        		+ " Navigate left: LEFT\n"
+        		+ " Navigate right: RIGHT\n"
+        		+ " Rotate   left         :\t UP\n"
+        		+ " Rotate   right       :\t DOWN\n"
+        		+ " Drop down           :\t SPACE\n"
+        		+ " Pause               :\t Press <P>");
         add(board);
         board.start();
 
